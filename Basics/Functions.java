@@ -15,6 +15,13 @@ public class Functions {
         return (3/4)*Math.PI*Math.pow(r,3);
     }
 
+
+    /**
+     * Description: Function that by specifying its currency converts an amount of money into Pesos MXN
+     * @param quantity Amount of money
+     * @param currency Type of currency: "EUR", "USD"
+     * @return quantity: Returns the amount of money expressed in MXN
+    */
     public static double convertToPesos(double quantity, String currency){
         switch (currency){
             case "USD":
